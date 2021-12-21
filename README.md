@@ -13,6 +13,7 @@ For those who target to build on a cluster with OpenMPI, please refer to this bl
 To run the code, you can follow the sample below: 
 
 ```
+cd federated_learning
 python -u start.py --num-workers 100 --partial True --num-part 20 --lr 0.05 --method FedaGrac --lam 0.03 --root ~/dataset --model AlexNet --dataset cifar10  --bsz 25 --non-iid True --dirichlet True --dir-alpha 0.1 --step-async True --step-dist gaussian --inconsistent True --K 500 --variance 100 --T 80
 ```
 
