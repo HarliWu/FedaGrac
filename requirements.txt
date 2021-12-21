@@ -1,0 +1,9 @@
+cffi==1.14.6
+mpi4py==3.1.1
+numpy==1.19.5
+olefile==0.46
+pycparser==2.20
+PyYAML==5.4.1
+six==1.16.0
+torch==1.4.0a0+7404463
+torchvision==0.5.0
